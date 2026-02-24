@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Asady Law Website
+
+Toronto's Premier Virtual Real Estate Law Firm - Modern, professional website built with Next.js.
+
+## Features
+
+- **Home Page**: Hero with Google Reviews badge, Services (4 cards), Step-by-step process (parallax), Reviews/Testimonials, Why Virtual section, Booking (Calendar + Form)
+- **Services Page**: Detailed service offerings
+- **About Page**: Firm values and mission
+- **Contact Page**: Contact form and details
+- **Onboarding Page** (URL-only: `/onboarding`): Multi-step form with ID upload - not in main navigation
+- **Interactive Chatbot**: Virtual real estate law assistant (bottom left)
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+- date-fns
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Logo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Place your official Asady Law logo (lion with laurel wreath) at `public/assets/logo.png` to replace the SVG placeholder. The logo should have a transparent background with white and gold (#c9a227) brand colors for best results on the dark theme.
 
-## Learn More
+## Google Reviews
 
-To learn more about Next.js, take a look at the following resources:
+The Reviews section uses placeholder content. To pull live Google My Business reviews, integrate the Google Places API or Google My Business API.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Onboarding
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The onboarding page is accessible only via URL: `/onboarding`. It's not linked in the main navigation. Share this link with clients when starting their onboarding process.
