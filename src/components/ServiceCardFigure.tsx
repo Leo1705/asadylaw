@@ -3,7 +3,10 @@
 import { motion } from 'framer-motion';
 
 const float = {
-  animate: { y: [0, -6, 0], transition: { duration: 2.8, repeat: Infinity, ease: 'easeInOut' } },
+  animate: {
+    y: [0, -6, 0],
+    transition: { duration: 2.8, repeat: Infinity, ease: 'easeInOut' as const },
+  },
 };
 
 const GOLD = '#c9a227';
